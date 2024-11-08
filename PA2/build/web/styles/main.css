@@ -1,0 +1,70 @@
+/* The styles for the elements */
+body { 
+    margin-left: 2em;
+    width: 95%;
+}
+h3 {
+    text-align: center;  
+    background-color: lightskyblue;
+    font-size: 180%;
+    font: Helvetica Neue;
+    color: white;
+    margin-bottom: .5em;  
+    
+}
+form
+{
+    width:35%;
+    float:right;
+    margin-right: 80px;
+}
+label {
+    width: 7em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 140%;
+    font: Helvetica Neue;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="Select"]{  /* An attribute selector */
+    width: 230px;
+    float:right;
+    margin-bottom: 0.2em;
+    margin-left: 0.5em;
+    font: Helvetica Neue;
+    font-size: 120%;
+    background: white;
+}
+span {    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.notVisible {
+   display: none;
+}
+.isVisible {
+    display: inline;
+}
+
+.header img {
+  float: right;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 6px;
+  right: 400px;
+}
+.errorDiv1{    
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    font:Helvetica Neue; 
+    font-size: 140%;
+}

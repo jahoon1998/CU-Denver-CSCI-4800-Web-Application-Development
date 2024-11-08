@@ -1,0 +1,70 @@
+/* The styles for the elements */
+
+h3 {
+    text-align: center;  
+    background-color: #1DA1F2;
+    font-size: 180%;
+    font: Helvetica Neue;
+    color: white;
+    margin-bottom: 0;    
+    
+}
+
+label {
+    
+    width: 7em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 140%;
+    font: Helvetica Neue;
+    
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="Select"], input[type="submit"], .option {  /* An attribute selector */
+
+    width: 230px;
+    margin-bottom: 0.2em;
+    margin-right: 5em;
+    float:right;
+    font: Helvetica Neue;
+    font-size: 120%;
+    background: white;
+    
+}
+span {    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.notVisible {
+   display: none;
+}
+.isVisible {
+    display: inline;
+}
+
+.PWerrorDiv{    
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    font:Helvetica Neue; 
+    font-size: 140%;
+}
+
+form{
+    
+    float:right;
+    width: 50%;
+    
+}
+
+.mainDIV{
+    width: 100%;
+    
+}
